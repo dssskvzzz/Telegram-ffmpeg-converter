@@ -1,5 +1,5 @@
 {
-    "token": "5568289276:AAGAfRuyy4OYLX6Xdr4dHbjMXN0mxTP0QZk",
+    "token": "",
     "output_channel": -1001947331637,
     "input_channel": -1001920499531,
     "command": "ffmpeg -i output.mp3 -i output.png -map 0 -map 1 -map_metadata -1 -c:a copy -id3v2_version 3 -metadata title=\"{title}\" -metadata genre=\"{lyrics}\" -metadata artist=\"{artist}\" \"{output_name}\".mp3",
